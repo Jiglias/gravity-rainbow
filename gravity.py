@@ -2,8 +2,8 @@ import numpy as np
 from PIL import Image, ImageDraw
 import math
 
-G = 1
-name = "saw"
+G = 15393
+name = "dot"
 img = Image.open(name+".png")
 
 WIDTH, HEIGHT = img.size
