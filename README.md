@@ -1,4 +1,4 @@
-# physics-emulation
+# gravity rainbow effect
 creates a rainbow bloom effect from input monochrome images, as shown in the examples folder.
 
 it treats the luminosity of pixels as mass and sums their effect to all other pixels using the inverse square law to create a "gravitiational field". the field is represented by a hsv image, where the hue at each point is determined by the direction, and the value is determined by gravitational acceleration.
